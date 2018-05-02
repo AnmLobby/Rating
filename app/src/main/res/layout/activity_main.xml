@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rating.MainActivity">
+    <com.youth.banner.Banner
+        app:delay_time="3000"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+<cn.jzvd.JZVideoPlayerStandard
+    android:layout_marginTop="50dp"
+    android:id="@+id/jz"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginBottom="50dp">
+
+</cn.jzvd.JZVideoPlayerStandard>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!--<android.support.v7.widget.CardView-->
+        <!--android:elevation="5dp"-->
+        <!--app:cardCornerRadius="5dp"-->
+        <!--android:layout_margin="15dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<TextView-->
+            <!--android:layout_margin="15dp"-->
+           <!--android:lineSpacingExtra="5dp"-->
+            <!--android:text="A：其实我对象挺好的。-->
+ <!--\nB：你有对象了？-->
+ <!--\nA：嗯啊，我不仅对象好，对猫，对狗都挺好的，相信我对你也会很好的！"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+    <!--</android.support.v7.widget.CardView>-->
+</LinearLayout>
